@@ -55,7 +55,7 @@ router.render = (req, res) => {
 server.use('/api',router)
 
 // start server
-const PORT = process.env.PORT || 3004
+const PORT = process.env.PORT || 3004;
 server.listen(PORT, () => {
-  console.log('JSON Server is running')
+  console.log(`namphung-todo-api is running on port ${ PORT }`)
 })
