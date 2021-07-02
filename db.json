@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": "30f56ce3-fb60-4044-8a0d-58e5d8bed588",
+      "username": "NamPhung",
+      "password": "1234567",
+      "avt": "https://cdn.fakercloud.com/avatars/ryanjohnson_me_128.jpg",
+      "displayName": "Nam Phùng",
+      "gender": 1,
+      "createdAt": 1625156820596,
+      "updatedAt": 1625156820596
+    },
+    {
+      "id": "ed0b433a-d2d2-467d-b694-c22a6178e77a",
+      "username": "NamPhung01",
+      "password": "nam1234567",
+      "avt": "https://cdn.fakercloud.com/avatars/_vojto_128.jpg",
+      "displayName": "Cũng là Nam",
+      "gender": 1,
+      "createdAt": 1625156820596,
+      "updatedAt": 1625156820596
+    }
+  ],
+  "todos": [
+    {
+      "id": "259ae509-72d0-4b5c-abbd-cc29cd121385",
+      "title": "Customer Division Representative",
+      "status": 2,
+      "createdAt": 1625156820596,
+      "updatedAt": 1625156820596,
+      "idUser": "30f56ce3-fb60-4044-8a0d-58e5d8bed588"
+    },
+    {
+      "id": "4047da65-1ea0-446f-93aa-5ebab515d52e",
+      "title": "Corporate Infrastructure Developer",
+      "status": 1,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "30f56ce3-fb60-4044-8a0d-58e5d8bed588"
+    },
+    {
+      "id": "d0adf6d5-d6c7-4a29-a023-9f6f31488e1f",
+      "title": "Direct Infrastructure Architect",
+      "status": 3,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "30f56ce3-fb60-4044-8a0d-58e5d8bed588"
+    },
+    {
+      "id": "8c031be9-f66c-4144-a87f-5004ff83b039",
+      "title": "International Quality Director",
+      "status": 2,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "30f56ce3-fb60-4044-8a0d-58e5d8bed588"
+    },
+    {
+      "id": "8b4023f1-68ba-477b-a9bb-4c5ca7ddc36c",
+      "title": "Senior Security Specialist",
+      "status": 2,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "30f56ce3-fb60-4044-8a0d-58e5d8bed588"
+    },
+    {
+      "id": "e1237a30-75c2-4839-840a-f994a4b72edc",
+      "title": "Lead Marketing Technician",
+      "status": 3,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "30f56ce3-fb60-4044-8a0d-58e5d8bed588"
+    },
+    {
+      "id": "48318c6e-96bd-4857-8520-7c4709dcca35",
+      "title": "Corporate Security Representative",
+      "status": 2,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "ed0b433a-d2d2-467d-b694-c22a6178e77a"
+    },
+    {
+      "id": "8c4e7e10-2c0a-4614-9f60-55f66cf4a333",
+      "title": "Human Data Consultant",
+      "status": 1,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "ed0b433a-d2d2-467d-b694-c22a6178e77a"
+    },
+    {
+      "id": "30959bed-809d-42ec-9340-5f337ec7037a",
+      "title": "Dynamic Marketing Analyst",
+      "status": 3,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "ed0b433a-d2d2-467d-b694-c22a6178e77a"
+    },
+    {
+      "id": "a917faef-c8b5-484b-b381-b60fb9b78731",
+      "title": "Lead Web Facilitator",
+      "status": 2,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "ed0b433a-d2d2-467d-b694-c22a6178e77a"
+    },
+    {
+      "id": "888b21ec-fd38-4c0d-8841-e1ebdb60ac22",
+      "title": "Global Data Planner",
+      "status": 1,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "ed0b433a-d2d2-467d-b694-c22a6178e77a"
+    },
+    {
+      "id": "121ca253-5609-41e7-9289-45c3f845cd48",
+      "title": "Customer Branding Facilitator",
+      "status": 3,
+      "createdAt": 1625156820597,
+      "updatedAt": 1625156820597,
+      "idUser": "ed0b433a-d2d2-467d-b694-c22a6178e77a"
+    },
+    {
+      "id": 16883,
+      "title": "test",
+      "status": 1,
+      "createdAt": 1625190272430
+    }
+  ]
+}

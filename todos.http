@@ -1,0 +1,67 @@
+@baseURL = http://localhost:3000/api
+@resourceName = todos
+
+#categories
+# @name getAll
+GET {{baseURL}}/{{resourceName}}
+
+###
+
+# @name addNew
+POST {{baseURL}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "categoryId": "aadcd898-f8b3-4548-8e5c-2a0617381251",
+    "id": "fde9e453-2c38-4a1b-b7fa-a61d7e1bdc44",
+    "name": "Small Wooden Chips",
+    "price": 570,
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "rating": 1,
+    "createdAt": 1623838154239,
+    "updatedAt": 1623838154239,
+    "thumbnailUrl": "http://placeimg.com/400/400"
+}
+
+###
+
+# @name update
+PATCH  {{baseURL}}/{{resourceName}}/fde9e453-2c38-4a1b-b7fa-a61d7e1bdc44
+Content-Type: application/json
+
+{
+    "categoryId": "aadcd898-f8b3-4548-8e5c-2a0617381251",
+    "id": "fde9e453-2c38-4a1b-b7fa-a61d7e1bdc44",
+    "name": "Small Wooden Chips",
+    "price": 570,
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "rating": 5,
+    "createdAt": 1623838154239,
+    "updatedAt": 1623838154239,
+    "thumbnailUrl": "http://placeimg.com/400/400"
+}
+
+###
+
+# @name remove
+DELETE   {{baseURL}}/{{resourceName}}/2
+
+###
+
+# @name filterProducts
+GET {{baseURL}}/{{resourceName}}?rating=5&price_gte=800
+
+###
+
+# @name search
+GET {{baseURL}}/{{resourceName}}?name_like=small
+
+###
+
+# @name pagination
+GET {{baseURL}}/{{resourceName}}?_page=1&_limit=5
+
+###
+
+# @name sort
+GET {{baseURL}}/{{resourceName}}?_sort=price&_order=asc
